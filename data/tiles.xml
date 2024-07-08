@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<gfx-xform version="1">
+
+	<input file="../data/tiles.png" type="png" tile-width="6" tile-height="8"/>
+
+	<output file="../data/tiles.inc">
+
+		<tiles var-name="tile_data"/>
+		<maps pointers-size="16">
+
+			<map var-name="board_map_std" left="0" top="10" width="38" height="25"/>
+			<map var-name="board_map_ext" left="0" top="35" width="24" height="21"/>
+
+			<map var-name="over_piece_red_map" left="0" top="7" width="4" height="3"/>
+			<map var-name="over_piece_yellow_map" left="4" top="7" width="4" height="3"/>
+
+			<map var-name="blank_piece_map" left="0" top="1" width="4" height="3"/>
+			<map var-name="red_piece_map" left="4" top="1" width="4" height="3"/>
+			<map var-name="yellow_piece_map" left="8" top="1" width="4" height="3"/>
+			<map var-name="win_piece_map" left="8" top="1" width="4" height="3"/>
+
+			<map var-name="bottom_piece_red_map" left="0" top="4" width="4" height="3"/>
+			<map var-name="bottom_piece_yellow_map" left="4" top="4" width="4" height="3"/>
+
+			<map var-name="top_piece_red_map" left="0" top="4" width="4" height="3"/>
+			<map var-name="top_piece_yellow_map" left="4" top="4" width="4" height="3"/>
+		</maps>	
+
+	</output>
+
+</gfx-xform>
