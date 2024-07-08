@@ -1,9 +1,9 @@
 ###############################################################################
-# Makefile for the project Dr Mario Uzenet Edition
+# Makefile for the project Connect4
 ###############################################################################
 
 ## General Flags
-PROJECT = DrMarioUzenetEdition
+PROJECT = Connect4
 GAME = CONNECT4
 MCU = atmega644
 TARGET = $(GAME).elf
